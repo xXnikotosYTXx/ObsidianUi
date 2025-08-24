@@ -254,7 +254,7 @@ local Templates = {
         CornerRadius = 4,
         NotifySide = "Right",
         ShowCustomCursor = false,
-        Font = Enum.Font.Code,
+        Font = Enum.Font.Gotham,
         ToggleKeybind = Enum.KeyCode.RightControl,
         MobileButtonsSide = "Left",
     },
