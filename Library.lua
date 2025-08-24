@@ -98,14 +98,14 @@ local ObsidianImageManager = {
     Assets = {
         TransparencyTexture = {
             RobloxId = 139785960036434,
-            Path = "Obsidian/assets/TransparencyTexture.png",
+            Path = "Project_Radiant_LibSettings/assets/TransparencyTexture.png",
 
             Id = nil
         },
         
         SaturationMap = {
             RobloxId = 4155801252,
-            Path = "Obsidian/assets/SaturationMap.png",
+            Path = "Project_Radiant_LibSettings/assets/SaturationMap.png",
 
             Id = nil
         }
