@@ -35,12 +35,12 @@ if typeof(copyfunction) == "function" then
 end
 
 local ThemeManager = {} do
-    ThemeManager.Folder = "ObsidianLibSettings"
+    ThemeManager.Folder = "Project_Radiant_LibSettings"
     -- if not isfolder(ThemeManager.Folder) then makefolder(ThemeManager.Folder) end
 
     ThemeManager.Library = nil
     ThemeManager.BuiltInThemes = {
-        ["Default"] 		= { 1, httpService:JSONDecode([[{"FontColor":"ffffff","MainColor":"191919","AccentColor":"7d55ff","BackgroundColor":"0f0f0f","OutlineColor":"282828"}]]) },
+        ["Default"] 		= { 1, httpService:JSONDecode([[{"FontColor":"ffffff","MainColor":"1b1818","AccentColor":"#9f957c","BackgroundColor":"000000","OutlineColor":"222a26"}]]) },
         ["BBot"] 			= { 2, httpService:JSONDecode([[{"FontColor":"ffffff","MainColor":"1e1e1e","AccentColor":"7e48a3","BackgroundColor":"232323","OutlineColor":"141414"}]]) },
         ["Fatality"]		= { 3, httpService:JSONDecode([[{"FontColor":"ffffff","MainColor":"1e1842","AccentColor":"c50754","BackgroundColor":"191335","OutlineColor":"3c355d"}]]) },
         ["Jester"] 			= { 4, httpService:JSONDecode([[{"FontColor":"ffffff","MainColor":"242424","AccentColor":"db4467","BackgroundColor":"1c1c1c","OutlineColor":"373737"}]]) },
@@ -250,7 +250,7 @@ local ThemeManager = {} do
         groupbox:AddLabel("Font color"):AddColorPicker("FontColor", { Default = self.Library.Scheme.FontColor })
         groupbox:AddDropdown("FontFace", {
             Text = "Font Face",
-            Default = "Code",
+            Default = "Gotham",
             Values = {"BuilderSans", "Code", "Fantasy", "Gotham", "Jura", "Roboto", "RobotoMono", "SourceSans"}
         })
 
